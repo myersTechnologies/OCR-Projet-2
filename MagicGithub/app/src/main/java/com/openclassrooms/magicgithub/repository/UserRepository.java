@@ -17,7 +17,6 @@ public class UserRepository {
 
     public List<User> getUsers() {
         // TODO: A modifier
-        apiService.getUsers();
         return apiService.getUsers();
     }
 
